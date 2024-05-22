@@ -1,0 +1,167 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+
+ }
+
+ .container {
+     max-width: 1440px;
+     width: 100%;
+     margin: 0 auto;
+ }
+
+ header {
+     height: 80px;
+     background: #014E56;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 90px;
+ }
+
+ .lilar {
+     list-style: none;
+     color: white;
+     display: flex;
+     gap: 40px;
+ }
+
+ .liOta {
+     gap: 20px;
+     display: flex;
+ }
+
+ .btn {
+     height: 30px;
+ }
+
+ main {
+     /* height: 437px; */
+     background-color: #014E56;
+     color: white;
+     padding-top: 100px;
+ }
+
+ h1 {
+     font-size: 60px;
+ }
+
+ p {
+     width: 600px;
+ }
+
+ .section-one {
+     justify-content: space-evenly;
+     display: flex;
+ }
+
+ .section-two {
+     background: #004047;
+     height: 600px;
+ }
+
+ .girl {
+     width: 350px;
+     height: 300px;
+     background: #012F34;
+     /* position: absolute; */
+
+ }
+
+ .dnk {
+     margin-left: 100px;
+     padding-top: 30px;
+ }
+
+ .plus {
+     /* position: relative; */
+     /* padding-top: 80px;
+     padding-left: 20px; */
+ }
+
+ li:hover {
+     color: red;
+ }
+ h1:hover{
+    color: red;
+ }
+h2:hover{
+    color: red;
+}
+
+h3:hover{
+    color: red;
+}
+p:hover{
+    color: red;
+}
+
+ .gless {
+     width: 350px;
+     height: 300px;
+     background: #012F34;
+     /* position: absolute; */
+     /* margin-left: 500px; */
+ }
+ .black{
+    width: 350px;
+    height: 300px;
+    background: #012F34;
+    /* position: absolute; */
+    /* margin-left: 1000px; */
+ }
+ .director{
+    /* margin-left: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ }
+ .section-three{
+    height: 400px;
+    background-color: #012F34;
+ }
+ .image{
+    
+    flex-wrap: wrap;
+
+   display: flex;
+   justify-content: space-between;
+ }
+ .section-four{
+    height: 150px;
+    background: #F67E7E;
+display: flex;  
+justify-content: space-between;
+align-items: center;
+ }
+ .footerContainer{
+    padding: 0 30px;
+
+background-color: #012F34;
+display: flex;
+justify-content: space-between; 
+ 
+ }
+
+ @media only screen and (max-width: 1024px) {
+   header{
+   flex-direction: column;
+  
+   }
+   .section-three{
+    flex-direction: column;
+display: block;
+   }
+   .section-two{
+    flex-direction: column;
+display: block;
+
+   }
+   .section-one{
+    flex-direction: column;
+display: block;
+   }
+  }
+  
